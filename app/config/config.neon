@@ -18,6 +18,9 @@ nette:
 		errorPresenter: Error
 		templateFactory: Clevis\Skeleton\TemplateFactory(Nette.templateCacheStorage)
 
+	container:
+		accessors: true
+
 	session:
 		expiration: 14 days
 
